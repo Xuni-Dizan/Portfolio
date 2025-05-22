@@ -1,0 +1,30 @@
+    /* src/index.css */
+
+    /* Import các directives của Tailwind CSS */
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+
+    /* Các style toàn cục tùy chỉnh có thể được thêm vào đây. */
+
+    body {
+      /* font-family: 'Montserrat', sans-serif;  Bạn đã định nghĩa trong theme của tailwind.config.js */
+      margin: 0;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      /* background-color: #1a202c; /* Tailwind sẽ xử lý việc này */
+      /* color: #e2e8f0; */
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+    

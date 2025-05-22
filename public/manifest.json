@@ -1,0 +1,27 @@
+{
+    "short_name": "Tên Ngắn",
+    "name": "Tên Website Cá Nhân Của Bạn",
+    "description": "Website cá nhân được thiết kế độc đáo và chuyên nghiệp, thể hiện rõ nét bản sắc riêng biệt.",
+    "icons": [
+      {
+        "src": "favicon.ico",
+        "sizes": "64x64 32x32 24x24 16x16",
+        "type": "image/x-icon"
+      },
+      {
+        "src": "logo192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "logo512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#FACC15",
+    "background_color": "#1A202C"
+  }
+  
